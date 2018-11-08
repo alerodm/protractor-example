@@ -1,0 +1,23 @@
+{
+  "name": "protractor-example",
+  "version": "1.0.0",
+  "description": "sample project to start quickly",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./config/protractor.js --suite default",
+    "webdriver-manager:update": "./node_modules/protractor/bin/webdriver-manager update",
+    "webdriver-manager:start": "./node_modules/protractor/bin/webdriver-manager start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-promise": "^4.0.1"
+  }
+}
